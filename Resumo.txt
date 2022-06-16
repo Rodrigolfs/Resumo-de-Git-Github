@@ -1,0 +1,55 @@
+# Git e GitHub :page_with_curl:
+
+***Git*** :computer:
+
+ Software de versionamento de códigos que ajuda a criar e monitorar diferentes versões de um código em nossa máquina
+
+***GitHub*** :cloud:
+
+ Armazena nas nuvens versões dos códigos criados no GIT
+
+## Git
+
+É CLI (Command Line Interface)
+
+##### Comandos Windows 
+
+- CD: change direct (troca de diretório)
+- DIR: direct (lista os diretórios)
+- MKDIR: make direct (cria diretório)
+- Del/RMDIR: remove direct (remover diretório)
+
+##### SHA1 
+
+ A sigla SHA significa Secure Hash Algoritm (Algoritimo de Hash Seguro). É um conjunto de funções hash <u>criptografadas</u>. Esse algoritmo ao criptografar um dado, gera um conjunto de caracteres únicos de 40 dígitos, que serve como uma identificação. A cada modificação que seja feito no arquivo, pode ser literalmente uma virgula somente, o sha1 gera uma outra identificação de 40 dígitos.
+
+ Essa é uma forma do Git se certificar e identificar que os arquivos sofreram modificação e garantir que naquele arquivo de uma versão para outra ele não sofreu modificação.
+
+ ##### Objetos Internos do Git
+
+ São so Blobs, Trees e Commits. São os três tipos básicos de objetos do Git responsáveis pelo versionamento do nosso código.
+
+1. <u>Blobs:</u> cada arquivo do Git é armazenado  como um objeto Blob, ou seja, blobs cotem metadados do git que são o tipo do objeto, tamanho do arquivo, etc.
+2. <u>Trees:</u> armazenam Blobs e apontam para tipos de blobs diferentes. Também guarda o nome do arquivo, diferente do blob que só guarda o SHA do arquivo.
+3. <u>Commits</u>: da sentido para as alteraçoes que é feita no arquivo. ele aponta para uma tree, para o ultimo commits, aponta para o autor e para uma mensagem.
+
+✔Os Blobs, as Tree's e os Commits possuem seus próprios SHA's. O que significa que se você altera um dado de um blob ele vai gerar um SHA. Esse Blob por sua vez tem uma tree apontando para ele, então se o blob foi alterado, os metadados da tree também, criando assim um outro SHA para esta tree. Essa tree tem um commit apontando para ela que por sua vez tem seu SHA alterado.
+
+ Portanto se você alterar qualquer coisa no blob isso vai gerar uma reação em cadeia que vai refletir na tree e no commit. Então por isso o Git é tão confiável. 
+
+:question: *Então por que é um sistema distribuído e seguro?*
+
+ *Distribuído porque pode ter varias versões de um mesmo arquivo com vários usuários ao mesmo tempo e seguro por conta do modo de encriptação usado que é o SHA*
+
+##### Chave SSH
+
+ É uma forma de fornecer uma conexão segura e encriptada entre duas máquinas (servidor do github e a nossa máquina local)
+
+##### Token de Acesso Pessoal
+
+É um certificado digital que é usado para substituir o login e a senha do github na hora de enviar um commit.
+
+
+
+
+
