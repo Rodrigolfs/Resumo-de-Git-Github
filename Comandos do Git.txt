@@ -1,0 +1,25 @@
+# Comandos do Git
+
+- CD: possibilita que o usuario navegue pelas pastas
+
+  ​     CD / : leva para a base do diretorio C
+
+  ​     CD + Nome da pasta: entra na pasta específica
+
+  ​     CD .. : Volta para a pasta anterior
+
+- DIR: lista os diretorios da pasta que você esta
+
+- MKDIR: cria pastas
+
+- DEL/RMDIR: deleta arquivos dentro de uma pasta
+
+- CLS: limpa o terminal
+
+- TAB: autocompleta
+
+- GIT INI: cria a pasta .git e cria um repositório
+
+- GIT STATUS: mostra o status da pasta
+
+  
