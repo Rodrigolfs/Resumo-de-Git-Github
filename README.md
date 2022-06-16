@@ -1,2 +1,2 @@
-# Resumo-de-Git-Github
-Resumo do curso de Introdução ap Git e ao GitHub da DIO
+# Resumo-sobre-Git-GitHub
+Resumo do curso de Introdução ao Git e ao GitHub da DIO
